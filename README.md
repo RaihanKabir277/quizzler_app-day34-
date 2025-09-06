@@ -37,23 +37,23 @@ pip install requests
 
 # How It Works
 
-1.data.py → Fetches 15 computer science True/False questions from the OpenTDB API.
-2.question_model.py → Wraps each question into a Question object.
-3.quiz_brain.py → Controls quiz flow, scoring, and answer validation.
-4.ui.py → Displays questions in a Tkinter window, handles user interaction, and provides feedback.
-5.main.py → Ties everything together
+- 1.data.py → Fetches 15 computer science True/False questions from the OpenTDB API.
+- 2.question_model.py → Wraps each question into a Question object.
+- 3.quiz_brain.py → Controls quiz flow, scoring, and answer validation.
+- 4.ui.py → Displays questions in a Tkinter window, handles user interaction, and provides feedback.
+- 5.main.py → Ties everything together
 
 # Demo Question Flow
 
-1.Question is displayed in the canvas.
-2.User clicks ✅ True or ❌ False.
-3.Background flashes:
+- 1.Question is displayed in the canvas.
+- 2.User clicks ✅ True or ❌ False.
+- 3.Background flashes:
 
-    - '🟩 Green → Correct
-    - '🟥 Red → Incorrect
+    - 🟩 Green → Correct
+    - 🟥 Red → Incorrect
 
-4.After 1 second, the next question appears automatically.
-5.Once all questions are answered → final score displayed & buttons are disabled.
+- 4.After 1 second, the next question appears automatically.
+- 5.Once all questions are answered → final score displayed & buttons are disabled.
 
 ## 🕹️ Tech Stack
 
