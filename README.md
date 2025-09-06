@@ -21,15 +21,15 @@ The app fetches live trivia questions from the **Open Trivia Database API** and 
 ## 📂 Project Structure
 
 Quizzler-App/
-│── main.py # Entry point, initializes the quiz
-│── data.py # Fetches trivia questions from API
-│── question_model.py # Defines Question class
-│── quiz_brain.py # Quiz logic (score, question handling)
-│── ui.py # Tkinter interface
-│── images/
-│ ├── true.png
-│ └── false.png
-│── README.md # Project documentation
+- │── main.py # Entry point, initializes the quiz
+- │── data.py # Fetches trivia questions from API
+- │── question_model.py # Defines Question class
+- │── quiz_brain.py # Quiz logic (score, question handling)
+- │── ui.py # Tkinter interface
+- │── images/
+- │ ├── true.png
+- │ └── false.png
+- │── README.md # Project documentation
 
 # Install dependencies:
 
@@ -37,11 +37,11 @@ pip install requests
 
 # How It Works
 
-1.data.py → Fetches 15 computer science True/False questions from the OpenTDB API.
-2.question_model.py → Wraps each question into a Question object.
-3.quiz_brain.py → Controls quiz flow, scoring, and answer validation.
-4.ui.py → Displays questions in a Tkinter window, handles user interaction, and provides feedback.
-5.main.py → Ties everything together
+- 1.data.py → Fetches 15 computer science True/False questions from the OpenTDB API.
+- 2.question_model.py → Wraps each question into a Question object.
+- 3.quiz_brain.py → Controls quiz flow, scoring, and answer validation.
+- 4.ui.py → Displays questions in a Tkinter window, handles user interaction, and provides feedback.
+- 5.main.py → Ties everything together
 
 # Demo Question Flow
 
